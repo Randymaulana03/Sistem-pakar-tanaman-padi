@@ -1,4 +1,4 @@
-rules = {
+{
   "R1": {
     "IF": ["daun muda tergulung", "ada serangga kecil di bawah daun"],
     "THEN": "Wereng Hijau (Nephotettix virescens)",
