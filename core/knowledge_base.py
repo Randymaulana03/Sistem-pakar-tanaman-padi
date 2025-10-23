@@ -1,122 +1,54 @@
-rules = {
-  "R1": {
-    "IF": ["daun muda tergulung", "ada serangga kecil di bawah daun"],
-    "THEN": "Wereng Hijau (Nephotettix virescens)",
-    "CF": 0.8,
-    "Sumber": "Mew TW, Hibino H, Savary S, Vera Cruz CM, Opulencia R, Hettel GP, eds. (2018). Rice diseases: Biology and selected management practices. Los Baños (Philippines): International Rice Research Institute. rice-diseases.irri.org"
-  },
-  "R2": {
-    "IF": ["malai gagal keluar sempurna", "bercak-bercak abu pada daun"],
-    "THEN": "Blast Leher (Magnaporthe oryzae)",
-    "CF": 0.75,
-    "Sumber": "Mew TW, Hibino H, Savary S, Vera Cruz CM, Opulencia R, Hettel GP, eds. (2018). Rice diseases: Biology and selected management practices. Los Baños (Philippines): International Rice Research Institute. rice-diseases.irri.org"
-  },
-  "R3": {
-    "IF": ["batang kosong", "mudah dicabut"],
-    "THEN": "Penggerek Batang (Scirpophaga incertulas)",
-    "CF": 0.9,
-    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org"
-  },
-  "R4": {
-    "IF": ["bercak coklat pada daun", "layu dan kering"],
-    "THEN": "Hawar Daun Coklat (Bipolaris oryzae)",
-    "CF": 0.85,
-    "Sumber": "Handbook on the Integrated Crop Management of Rice and Maize. (2011). Food and Agriculture Organization of the United Nations. openknowledge.fao.org"
-  },
-  "R5": {
-    "IF": ["akar busuk", "bibit mati sebelum tumbuh"],
-    "THEN": "Damping Off (Pythium spp.)",
-    "CF": 0.82,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R6": {
-    "IF": ["daun berlubang kecil", "daun mengering"],
-    "THEN": "Ulat Tentara (Leucania convecta)",
-    "CF": 0.75,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R7": {
-    "IF": ["bercak kehitaman pada malai"],
-    "THEN": "Glume Blotch (Pseudomonas syringae)",
-    "CF": 0.8,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R8": {
-    "IF": ["batang mudah roboh", "malai kosong"],
-    "THEN": "Penggerek Batang Jagung (Bathytricha truncata)",
-    "CF": 0.8,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R9": {
-    "IF": ["akar rusak", "daun kuning"],
-    "THEN": "Bloodworm (Chironomus tepperi)",
-    "CF": 0.8,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R10": {
-    "IF": ["malai tidak keluar", "leher batang layu"],
-    "THEN": "Blast Leher (Pyricularia grisea)",
-    "CF": 0.85,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R11": {
-    "IF": ["daun terdapat jalur keputihan, jaringan rusak"],
-    "THEN": "Leafminer (Hydrellia michelae)",
-    "CF": 0.75,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R12": {
-    "IF": ["kerusakan akar di zona air", "tanaman mati"],
-    "THEN": "Tadpole Shrimp (Triops australiensis)",
-    "CF": 0.75,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R13": {
-    "IF": ["akar dan batang berlendir", "tanah tergenang"],
-    "THEN": "Sheath Brown Rot (Pseudomonas fuscovaginae)",
-    "CF": 0.75,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R14": {
-    "IF": ["bintik putih tumbuh seperti benang kapas di daun"],
-    "THEN": "Embun Tepung/Downy Mildew (Sclerophthora macrospora)",
-    "CF": 0.7,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R15": {
-    "IF": ["serangga kecil perak pada daun pucat keriting"],
-    "THEN": "Thrips (Stenchaetothrips biformis)",
-    "CF": 0.7,
-    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org"
-  },
-  "R16": {
-    "IF": ["malai terdapat bercak coklat, butirannya berkurang"],
-    "THEN": "Sheath and Glume Rot (Pantoea ananas)",
-    "CF": 0.7,
-    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au"
-  },
-  "R17": {
-    "IF": ["hama kecil coklat di bawah daun yang menguning"],
-    "THEN": "Wereng Coklat (Nilaparvata lugens)",
-    "CF": 0.85,
-    "Sumber": "Mew TW, Hibino H, Savary S, Vera Cruz CM, Opulencia R, Hettel GP, eds. (2018). Rice diseases: Biology and selected management practices. Los Baños (Philippines): International Rice Research Institute. rice-diseases.irri.org"
-  },
-  "R18": {
-    "IF": ["kerusakan akar (bintik hitam dan jamur akar)"],
-    "THEN": "Busuk Akar (Fusarium spp.)",
-    "CF": 0.75,
-    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org"
-  },
-  "R19": {
-    "IF": ["daun bergulung, kering, batang dimakan dari dalam"],
-    "THEN": "Penggulung Daun (Cnaphalocrocis medinalis)",
-    "CF": 0.8,
-    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org"
-  },
-  "R20": {
-    "IF": ["malai putih dan tidak berisi bulir"],
-    "THEN": "Whitehead akibat Penggerek Batang (Chilo suppressalis)",
-    "CF": 0.82,
-    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org"
-  }
-}
+import json
+import os
+
+class KnowledgeBase:
+    def __init__(self, rules_file_path):
+        """
+        Inisialisasi KnowledgeBase dengan memuat file JSON berisi rules.
+        :param rules_file_path: Path ke file JSON rules (misalnya: data/rules.json)
+        """
+        self.rules_file_path = rules_file_path
+        self.rules = self._load_rules()
+
+    def _load_rules(self):
+        """Membaca rules dari file JSON dan mengembalikannya sebagai dictionary Python."""
+        if not os.path.exists(self.rules_file_path):
+            raise FileNotFoundError(f"File rules tidak ditemukan di: {self.rules_file_path}")
+
+        with open(self.rules_file_path, 'r', encoding='utf-8') as file:
+            rules = json.load(file)
+        return rules
+
+    def get_all_rules(self):
+        """Mengembalikan seluruh rules dalam bentuk dictionary."""
+        return self.rules
+
+    def get_rule(self, rule_id):
+        """Mengambil satu rule berdasarkan ID (misal 'R1', 'R2', dst.)"""
+        return self.rules.get(rule_id, None)
+
+    def find_diagnosis(self, symptoms):
+        """
+        Mencari diagnosis berdasarkan gejala yang diberikan.
+        :param symptoms: list gejala yang diamati
+        :return: list hasil diagnosis dengan nilai CF (certainty factor) dan Rekomendasi
+        """
+        results = []
+        for rule_id, rule in self.rules.items():
+            # Hitung kecocokan gejala antara input user dan rule
+            matched = set(rule["IF"]).intersection(set(symptoms))
+            match_ratio = len(matched) / len(rule["IF"])
+
+            if match_ratio > 0:  # ada kecocokan gejala
+                cf_value = rule["CF"] * match_ratio
+                results.append({
+                    "Rule_ID": rule_id,
+                    "Diagnosis": rule["THEN"],
+                    "CF_Computed": round(cf_value, 2),
+                    "Sumber": rule["Sumber"],
+                    "Rekomendasi": rule.get("Rekomendasi", "Tidak ada rekomendasi tersedia.")
+                })
+
+        # Urutkan hasil diagnosis berdasarkan CF tertinggi
+        results.sort(key=lambda x: x["CF_Computed"], reverse=True)
+        return results
