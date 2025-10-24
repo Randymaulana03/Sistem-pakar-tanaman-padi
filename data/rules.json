@@ -1,0 +1,193 @@
+{
+  "R1": {
+    "IF": [
+      "Daun muda tergulung",
+      "Ada serangga kecil di bawah daun"
+    ],
+    "THEN": "Wereng Hijau (Nephotettix virescens)",
+    "CF": 0.8,
+    "Sumber": "Mew TW, Hibino H, Savary S, Vera Cruz CM, Opulencia R, Hettel GP, eds. (2018). Rice diseases: Biology and selected management practices. Los Baños (Philippines): International Rice Research Institute. rice-diseases.irri.org",
+    "Rekomendasi": "Gunakan insektisida sistemik berbahan aktif Imidakloprid atau Deltametrin, serta tanam varietas tahan wereng."
+  },
+  "R2": {
+    "IF": [
+      "Malai gagal keluar sempurna",
+      "Bercak-bercak abu pada daun"
+    ],
+    "THEN": "Blast Leher (Magnaporthe oryzae)",
+    "CF": 0.75,
+    "Sumber": "Mew TW, Hibino H, Savary S, Vera Cruz CM, Opulencia R, Hettel GP, eds. (2018). Rice diseases: Biology and selected management practices. Los Baños (Philippines): International Rice Research Institute. rice-diseases.irri.org",
+    "Rekomendasi": "Aplikasikan fungisida berbahan aktif Tricyclazole atau Isoprothiolane, dan hindari pemupukan nitrogen berlebih."
+  },
+  "R3": {
+    "IF": [
+      "Batang kosong",
+      "Mudah dicabut"
+    ],
+    "THEN": "Penggerek Batang (Scirpophaga incertulas)",
+    "CF": 0.9,
+    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Fipronil atau Karbofuran, serta lakukan sanitasi jerami dan sisa tanaman."
+  },
+  "R4": {
+    "IF": [
+      "Bercak coklat pada daun",
+      "Layu dan kering"
+    ],
+    "THEN": "Hawar Daun Coklat (Bipolaris oryzae)",
+    "CF": 0.85,
+    "Sumber": "Handbook on the Integrated Crop Management of Rice and Maize. (2011). Food and Agriculture Organization of the United Nations. openknowledge.fao.org",
+    "Rekomendasi": "Gunakan fungisida berbahan aktif Mancozeb atau Propiconazole dan pilih varietas tahan hawar daun."
+  },
+  "R5": {
+    "IF": [
+      "Akar busuk",
+      "Bibit mati sebelum tumbuh"
+    ],
+    "THEN": "Damping Off (Pythium spp.)",
+    "CF": 0.82,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan benih sehat, rendam benih dengan fungisida sebelum tanam, dan hindari kelembapan berlebih."
+  },
+  "R6": {
+    "IF": [
+      "Daun berlubang kecil",
+      "Daun mengering"
+    ],
+    "THEN": "Ulat Tentara (Leucania convecta)",
+    "CF": 0.75,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Lambda-sihalotrin atau Bacillus thuringiensis, dan lakukan pengamatan rutin."
+  },
+  "R7": {
+    "IF": [
+      "Bercak kehitaman pada malai"
+    ],
+    "THEN": "Glume Blotch (Pseudomonas syringae)",
+    "CF": 0.8,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan benih bersertifikat dan fungisida berbahan aktif Tebuconazole, serta hindari kondisi lembap berlebih."
+  },
+  "R8": {
+    "IF": [
+      "Batang mudah roboh",
+      "Malai kosong"
+    ],
+    "THEN": "Penggerek Batang Jagung (Bathytricha truncata)",
+    "CF": 0.8,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Fipronil dan lakukan rotasi tanaman dengan non-graminea."
+  },
+  "R9": {
+    "IF": [
+      "Akar rusak",
+      "Daun kuning"
+    ],
+    "THEN": "Bloodworm (Chironomus tepperi)",
+    "CF": 0.8,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Kurangi genangan air selama beberapa hari dan gunakan insektisida berbahan aktif Abamectin."
+  },
+  "R10": {
+    "IF": [
+      "Malai tidak keluar",
+      "Leher batang layu"
+    ],
+    "THEN": "Blast Leher (Pyricularia grisea)",
+    "CF": 0.85,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan fungisida Tricyclazole, kurangi pupuk nitrogen, dan gunakan varietas tahan penyakit blast."
+  },
+  "R11": {
+    "IF": [
+      "Daun terdapat jalur keputihan, Jaringan rusak"
+    ],
+    "THEN": "Leafminer (Hydrellia michelae)",
+    "CF": 0.75,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Abamectin atau Spinosad dan hindari kepadatan tanam tinggi."
+  },
+  "R12": {
+    "IF": [
+      "Kerusakan akar di zona air",
+      "Tanaman mati"
+    ],
+    "THEN": "Tadpole Shrimp (Triops australiensis)",
+    "CF": 0.75,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Keringkan lahan sementara dan gunakan pestisida berbahan aktif Lambda-sihalotrin."
+  },
+  "R13": {
+    "IF": [
+      "Akar dan batang berlendir",
+      "Tanah tergenang"
+    ],
+    "THEN": "Sheath Brown Rot (Pseudomonas fuscovaginae)",
+    "CF": 0.75,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan benih sehat dan semprot fungisida berbahan aktif Copper oxychloride atau Kasugamycin."
+  },
+  "R14": {
+    "IF": [
+      "Bintik putih tumbuh seperti benang kapas di daun"
+    ],
+    "THEN": "Embun Tepung/Downy Mildew (Sclerophthora macrospora)",
+    "CF": 0.7,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan fungisida berbahan aktif Metalaxyl atau Mancozeb dan hindari kelembapan tinggi."
+  },
+  "R15": {
+    "IF": [
+      "Serangga kecil perak pada daun pucat keriting"
+    ],
+    "THEN": "Thrips (Stenchaetothrips biformis)",
+    "CF": 0.7,
+    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Imidakloprid atau Abamectin dan perbaiki drainase sawah."
+  },
+  "R16": {
+    "IF": [
+      "Malai terdapat bercak coklat, butirannya berkurang"
+    ],
+    "THEN": "Sheath and Glume Rot (Pantoea ananas)",
+    "CF": 0.7,
+    "Sumber": "Rice Field Guide to Pests, Diseases and Weeds in Southern NSW (2013). New South Wales Department of Primary Industries. dpi.nsw.gov.au",
+    "Rekomendasi": "Gunakan fungisida berbahan aktif Propiconazole dan pastikan sirkulasi udara yang baik di lahan."
+  },
+  "R17": {
+    "IF": [
+      "Hama kecil coklat di bawah daun yang menguning"
+    ],
+    "THEN": "Wereng Coklat (Nilaparvata lugens)",
+    "CF": 0.85,
+    "Sumber": "Mew TW, Hibino H, Savary S, Vera Cruz CM, Opulencia R, Hettel GP, eds. (2018). Rice diseases: Biology and selected management practices. Los Baños (Philippines): International Rice Research Institute. rice-diseases.irri.org",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Buprofezin atau Pymetrozine dan tanam varietas tahan wereng."
+  },
+  "R18": {
+    "IF": [
+      "Kerusakan akar (bintik hitam dan jamur akar)"
+    ],
+    "THEN": "Busuk Akar (Fusarium spp.)",
+    "CF": 0.75,
+    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org",
+    "Rekomendasi": "Gunakan fungisida berbahan aktif Carbendazim atau Trichoderma sp., dan perbaiki aerasi tanah."
+  },
+  "R19": {
+    "IF": [
+      "Daun bergulung, kering, batang dimakan dari dalam"
+    ],
+    "THEN": "Penggulung Daun (Cnaphalocrocis medinalis)",
+    "CF": 0.8,
+    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org",
+    "Rekomendasi": "Gunakan insektisida berbahan aktif Lambda-sihalotrin atau Abamectin dan lakukan monitoring populasi larva."
+  },
+  "R20": {
+    "IF": [
+      "Malai putih dan tidak berisi bulir"
+    ],
+    "THEN": "Whitehead akibat Penggerek Batang (Chilo suppressalis)",
+    "CF": 0.82,
+    "Sumber": "Mohammed K. (2024). Rice Pests and Diseases: A Comprehensive Review of Current Management Strategies. Journal of Rice Research. omicsonline.org",
+    "Rekomendasi": "Gunakan insektisida Fipronil atau Karbofuran dan lakukan pemangkasan jerami sisa panen"
+  }
+}
