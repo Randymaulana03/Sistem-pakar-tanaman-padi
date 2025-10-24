@@ -6,7 +6,6 @@ certifi==2025.10.5
 charset-normalizer==3.4.4
 click==8.3.0
 colorama==0.4.6
-fpdf==1.7.2
 gitdb==4.0.12
 GitPython==3.1.45
 idna==3.11
@@ -20,7 +19,7 @@ packaging==25.0
 pandas==2.3.3
 pillow==11.3.0
 protobuf==6.33.0
-pyarrow==21.0.0
+pyarrow==22.0.0
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
