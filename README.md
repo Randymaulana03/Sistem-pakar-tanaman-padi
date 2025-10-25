@@ -295,9 +295,9 @@ Sistem menampilkan trace lengkap dari proses inferensi Forward Chaining.
 
 ## 📚 Dependencies
 
-- **Streamlit** >= 1.28.0: Web framework
-- **Pandas** >= 2.0.0: Data manipulation (optional)
-- **NumPy** >= 1.24.0: Numerical computing (optional)
+- **Streamlit** >= 1.50.0: Web framework
+- **Pandas** >= 2.3.3: Data manipulation (optional)
+- **NumPy** >= 2.3.4: Numerical computing (optional)
 
 ## 👨‍💻 Development
 
