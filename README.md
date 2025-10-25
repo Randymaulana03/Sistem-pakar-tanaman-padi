@@ -339,6 +339,25 @@ Pesan sukses: "✅ Rule [ID] berhasil dihapus dari basis pengetahuan!"
 
 <a href="https://ibb.co.com/fYSSqPCY"><img src="https://i.ibb.co.com/zh55Q0Sh/sukses-hapus-rule.jpg" alt="sukses-hapus-rule" border="0" /></a>
 
+### 5. Jalankan Fitur Admin
+
+Jalankan aplikasi dengan perintah:
+
+```bash
+streamlit run main_acquisition.py
+```
+
+Aplikasi akan otomatis terbuka di browser default Anda pada alamat:
+```
+http://localhost:8501
+```
+
+Jika tidak terbuka otomatis, buka browser dan akses URL di atas.
+
+### 🛑 Menghentikan Aplikasi
+
+Untuk menghentikan aplikasi, tekan `Ctrl + C` di terminal.
+
 ## 📚 Dependencies
 
 - **Streamlit** >= 1.50.0: Web framework
