@@ -293,6 +293,52 @@ Sistem menampilkan trace lengkap dari proses inferensi Forward Chaining.
 
 <a href="https://ibb.co.com/vxLcxBN9"><img src="https://i.ibb.co.com/SXV6XxkS/reasioning.png" alt="reasioning" border="0"></a>
 
+## 🔧 Fitur Admin: Knowledge Acquisition
+
+### 1. Lihat Semua Rules
+
+Dashboard admin menampilkan daftar lengkap semua aturan yang ada dalam knowledge base dengan informasi: ID Rule, Kondisi IF, Kesimpulan THEN, Certainty Factor (CF), Sumber, Rekomendasi.
+
+<a href="https://ibb.co.com/fYSSqPCY"><img src="https://i.ibb.co.com/zh55Q0Sh/sukses-hapus-rule.jpg" alt="sukses-hapus-rule" border="0" /></a>
+
+### 2. Tambah Rule Baru
+
+Form untuk menambahkan aturan baru ke dalam knowledge base dengan field: Gejala, Kondisi/premis (pisahkan dengan koma), Nama penyakit/hama, CF (0-1), Sumber informasi, Rekomendasi.
+
+<a href="https://ibb.co.com/KzKCrHM0"><img src="https://i.ibb.co.com/M5BqCLY2/form-tambah-rule.jpg" alt="form-tambah-rule" border="0" /></a>
+
+### 3. Edit Rule
+
+Fitur untuk memodifikasi aturan yang sudah ada:
+
+- Pilih ID Rule: Dropdown untuk memilih rule mana yang ingin diedit (R1, R2, R3, dst.)
+
+- Sistem akan otomatis memuat data rule yang dipilih
+
+- Edit field yang diinginkan (IF, THEN, CF, Sumber, Rekomendasi)
+
+- Tombol "Simpan Perubahan" untuk update data
+
+<a href="https://ibb.co.com/tpR6JdFK"><img src="https://i.ibb.co.com/VY6GqK59/form-edit-rule.jpg" alt="form-edit-rule" border="0" /></a>
+
+### 4. Hapus Rule
+
+Interface untuk menghapus aturan dari knowledge base:
+
+- Pilih ID Rule untuk dihapus: Dropdown selection
+
+- Tombol "Hapus Rule" dengan konfirmasi
+
+- Sistem menampilkan notifikasi sukses setelah penghapusan
+
+- Validasi untuk mencegah penghapusan tidak disengaja
+
+<a href="https://ibb.co.com/gZj0Q2x9"><img src="https://i.ibb.co.com/8gKyGCHs/hapus-rule.jpg" alt="hapus-rule" border="0" /></a>
+
+Pesan sukses: "✅ Rule [ID] berhasil dihapus dari basis pengetahuan!"
+
+<a href="https://ibb.co.com/fYSSqPCY"><img src="https://i.ibb.co.com/zh55Q0Sh/sukses-hapus-rule.jpg" alt="sukses-hapus-rule" border="0" /></a>
+
 ## 📚 Dependencies
 
 - **Streamlit** >= 1.50.0: Web framework
