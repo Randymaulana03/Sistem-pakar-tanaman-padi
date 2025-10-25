@@ -299,7 +299,7 @@ Sistem menampilkan trace lengkap dari proses inferensi Forward Chaining.
 
 Dashboard admin menampilkan daftar lengkap semua aturan yang ada dalam knowledge base dengan informasi: ID Rule, Kondisi IF, Kesimpulan THEN, Certainty Factor (CF), Sumber, Rekomendasi.
 
-<a href="https://ibb.co.com/fYSSqPCY"><img src="https://i.ibb.co.com/zh55Q0Sh/sukses-hapus-rule.jpg" alt="sukses-hapus-rule" border="0" /></a>
+<a href="https://ibb.co.com/M564jC6G"><img src="https://i.ibb.co.com/TqLSngLb/admin1.jpg" alt="admin1" border="0" /></a>
 
 ### 2. Tambah Rule Baru
 
